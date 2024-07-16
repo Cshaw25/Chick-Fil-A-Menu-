@@ -1,0 +1,393 @@
+
+header {
+    background: white;
+    color:rgb(194, 0, 47); 
+}
+h1, h4{
+    margin:0;
+    padding: 0;
+}
+section{
+    background: white;
+    color:rgb(194, 0, 47);
+}
+footer{
+    background:white;
+    color:rgb(194, 0, 47);
+}
+.container {
+   display:flex;
+}
+.box{
+   width: 45%px;
+   margin:10px 50px 20px 0px;
+}
+.Accent{
+    display:inline;
+    color: rgb(233, 3, 3);
+    font-size:smaller;
+}
+.subText{
+    color: rgb(146, 146, 146);
+    font-size:20px;
+}
+.figure1{
+    display: flex;
+}
+/* ul css for only the chick fil a combo image*/
+ul{
+    list-style-type: none;
+    display:flex;
+    
+}
+ul figure {
+    margin-right: 125px;
+    margin-top: 0px;
+}
+/* below is the css for the substitute bar */
+.section1{
+    color:black;
+    font:bold;
+    font-size: large;
+    border:1px solid black;
+    border-color: red;
+    height: 180px;
+}
+.sectionHead{
+    color:black;
+    text-align: center;
+    margin-bottom: -30px;
+}
+.stamp{
+    
+    text-wrap: nowrap;
+    margin-top:30px;
+    margin-right:-40px;
+    font-size: 8px;
+    color: rgb(233, 3, 3);
+    position:relative;
+}
+.text-overlay{
+    margin-top:-44px;
+    rotate: -30deg;
+    border-radius: 50%; 
+    border: 1px solid black;
+    border-color: grey;
+    height: 30px;
+    width: 60px;
+}
+.stamp img{
+    display: block;
+    rotate: -30deg;
+}
+
+.fruitCup{
+    margin-top: -5px;
+    margin-left: 100px;
+}
+.fruitCup img{
+    margin-left: -20px;
+    margin-top: -5px;
+}
+.figcaption1{
+    margin-top: -21px;
+}
+.figcaption2{
+    margin-top: 7px;
+    text-wrap: nowrap;
+}
+.superfood img{
+    margin-top: 9px;
+}
+.chickenSoup img{
+    margin-top: -40px;
+    margin-left: -37px;
+    margin-bottom: -15px;
+}
+.sideSalad{
+    margin-top: -86px;
+}
+.sideSalad img{
+    margin-top:53px; 
+    margin-bottom: -19px;
+    margin-left: -28px;
+}
+.figcaption4{
+    margin-top: -52px;
+}
+/* The CSS for the original and grilled meals section */
+.unhealthyChicken{
+    display: flex;
+}
+.contentSpicy{
+    margin-left: -50px;
+}
+/* .bigHeader is for the "Original Meals" title */
+.bigHeader{
+    font-size: 100px;
+    font:bold;
+    margin-bottom:-50px;
+}
+/* bigHeader2 is for "grilled meals" title */
+.bigHeader2{
+    font-size: 100px;
+    font:bold;
+    margin-top: -70px;
+}
+.dots {
+    font-size: 80px;
+    font:bold;
+    margin-bottom: -50px;
+}
+.dots2{
+    font-size: 80px;
+    font:bold;
+    margin-top:-50px;
+}
+/* CSS for the side numbers used. Every content box under
+Orginal meals and grilled meals section uses this*/
+.number{
+    margin-left: -40px;
+    font-weight: bold;
+    font-size:70px;
+    color:rgb(82, 79, 79);
+}
+.content{
+    display: inline;
+}
+/* Default CSS template for figure captions (not the subtext just
+    the header). */
+.sandwichContent{
+    margin-top: 8px;
+    margin-left: -36px;
+    font-size: xx-large;
+    color:rgb(65, 62, 62);
+}
+/* Name of the chicken sandwich figure */
+.friedChicken{
+    display:flex;
+    text-wrap: nowrap;
+}
+.friedChicken img{
+    margin-top: -100px;
+}
+.friedSpicyChicken img{
+    margin-top: -240px;
+    margin-left: 195px;
+}
+/* name of the ul for deluxe meals under original meals*/
+.Deluxe{
+    display:flexbox;
+}
+/* The next few CSS blocks positions the ___Or___ image above the deluxe 
+sandwich section*/
+.underscore{
+    margin-top: -140px;
+    margin-left: 70px;
+    color:black;
+    font-size: 20px;
+    text-wrap: nowrap;
+}
+.under{
+    color:black;
+    font-size: 20px;
+    margin-left: 290px;
+    margin-top: -130px;
+    
+}
+.or{
+    float:left;
+    margin-top: -133px;
+    margin-left: -114px;
+    color: black;
+    font-size: 20px;
+}
+/*the second ___or___ above the spicy section*/
+.or2{
+    margin-top: -123px;
+    margin-left:-114px;
+    color: black;
+    font-size: 20px;
+}
+/* name for deluxe sandwich figcaption.*/
+.deluxeSandwich{
+    margin-top:-150px;
+    margin-left: -158px;
+    color:black;
+    font-size: 30px;
+    font: bolder;
+    color:rgb(65, 62, 62);
+}
+/* name for deluxe sandwich figure */
+.del{
+    display:inline;
+    margin-top:-5px;
+}
+.del img{
+    margin-left:-320px;
+    margin-top:-130px;
+}
+/* Name for spicy deluxe figure*/
+.spicydel{
+    margin-top:-120px;
+    margin-left:-280px;
+    display: flex;
+}
+/* Name for the figcaption in spicydel,above*/
+.spicyDeluxeContent{
+    margin-left:10px;
+    margin-top: 15px;
+    color:black;
+    font-size: 30px;
+    font: bold;
+    color:rgb(65, 62, 62);
+}
+/* CSS for menu item 3 and 4 from line 245 to 270 */
+.orignalMeals2{
+    text-wrap: nowrap;
+    display:flex;
+    margin-left:-70px;
+}
+.nuggets{
+    display:flex;
+    text-wrap: nowrap;
+    margin-top:-1px;
+}
+.nuggets img{
+    margin-left:-20px;
+    margin-top:-60px;
+}
+.chick-n-strips{
+    margin-left:-90px;
+}
+.stripsBody{
+    margin-top:-2px;
+    text-wrap: nowrap;
+}
+.stripsBody img{
+    margin-top:-245px;
+    margin-left: 190px;
+}
+/* headerWithDots is the header for grilled meals with green text
+    beside it*/
+.headerWithDots{
+    margin-left:-40px;
+}
+/* the CSS for the green text beside the header,including the check mark*/
+.healthySubText {
+     margin-left: 50px;
+     margin-top: -35px;
+}
+/* CSS for just the green text not including the check mark*/
+.checkText{
+    margin-left:75px;
+    margin-top:-57px;
+    font-size:20px;
+    color:rgb(25, 172, 25);
+    font-weight: bold;
+    opacity: 70%;
+}
+/* Name of li div that includes the grilled nuggets figure and
+    menu number*/
+.grilledNuggets{
+    margin-left: -98px;
+}
+.grilledClub{
+    display:flex;
+    text-wrap: nowrap;
+}
+.grilledClub img{
+    margin-left: -45px;
+}
+.grilledWrap{
+    display:flex;
+    text-wrap: nowrap;
+    
+}
+.grilledWrap img{
+    margin-left: 0px;
+    margin-top:-10px;
+}
+.contentWrap{
+    margin-left:-90px;
+}
+/*CSS for sauces section */
+.Sauces{
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+    margin-left: -70px;;
+    text-wrap: nowrap;
+}
+
+.Sauces img{
+    margin-left:20px;
+}
+.sauceName{
+    color: rgb(78, 74, 74);
+    font-weight: bold;
+    
+}
+.sauceCal{
+    color:rgb(141, 140, 140);
+    font-size: 90%;
+}
+.poly{
+    margin-left:-50px;
+}
+.Honey{
+    margin-top:-4px;
+    margin-left: -35px;
+}
+.Ranch{
+    margin-top:-5px;
+    margin-left: -60px;
+}
+.Ranch img{
+    margin-left:28px;
+}
+.zesty{
+    margin-left: -60px;
+    margin-top: -7px;
+}
+.zesty img{
+    margin-bottom: 6px;
+}
+.BBQ{
+    margin-left: -60px;
+    margin-top:-2px;
+}
+.BBQ img{
+    margin-bottom:10px;
+}
+.sriracha{
+    margin-left: -60px;
+    margin-top:-3px;
+}
+.sriracha img{
+    margin-bottom: 6px;
+}
+.sauceTitle{
+    color: rgb(78, 74, 74);
+    font-weight: bold;
+    font-size: 22px;
+}
+.closing{
+    color:rgb(141, 140, 140);
+    font-size: 15px;
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
