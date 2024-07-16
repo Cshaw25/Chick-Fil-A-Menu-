@@ -165,7 +165,8 @@ Orginal meals and grilled meals section uses this*/
     margin-top: 8px;
     margin-left: -36px;
     font-size: xx-large;
-    color:rgb(65, 62, 62);
+    font-weight: bold;
+    color:rgb(99, 98, 98);
 }
 /* Name of the chicken sandwich figure */
 .friedChicken{
@@ -219,8 +220,8 @@ sandwich section*/
     margin-left: -158px;
     color:black;
     font-size: 30px;
-    font: bolder;
-    color:rgb(65, 62, 62);
+    font-weight: bold;
+    color:rgb(99, 98, 98);
 }
 /* name for deluxe sandwich figure */
 .del{
@@ -243,8 +244,8 @@ sandwich section*/
     margin-top: 15px;
     color:black;
     font-size: 30px;
-    font: bold;
-    color:rgb(65, 62, 62);
+    font-weight: bold;
+    color:rgb(99, 98, 98);
 }
 /* CSS for menu item 3 and 4 from line 245 to 270 */
 .orignalMeals2{
