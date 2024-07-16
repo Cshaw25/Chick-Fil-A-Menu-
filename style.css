@@ -31,6 +31,7 @@ footer{
     color: rgb(146, 146, 146);
     font-size:20px;
 }
+/* figure one is the chick fil a combo picture */
 .figure1{
     display: flex;
 }
@@ -67,6 +68,7 @@ ul figure {
     color: rgb(233, 3, 3);
     position:relative;
 }
+/* text-overlay, positions the text over the image to the left of the fruit cup.*/
 .text-overlay{
     margin-top:-44px;
     rotate: -30deg;
@@ -151,7 +153,9 @@ Orginal meals and grilled meals section uses this*/
     font-weight: bold;
     font-size:70px;
     color:rgb(82, 79, 79);
+    list-style-type: none;
 }
+
 .content{
     display: inline;
 }
@@ -246,19 +250,25 @@ sandwich section*/
 .orignalMeals2{
     text-wrap: nowrap;
     display:flex;
-    margin-left:-70px;
+    margin-left:125px;
+}
+.contentNuggets{
+    margin-left: -82px;
+    list-style-type: none;
 }
 .nuggets{
     display:flex;
     text-wrap: nowrap;
     margin-top:-1px;
+    
 }
 .nuggets img{
     margin-left:-20px;
     margin-top:-60px;
 }
 .chick-n-strips{
-    margin-left:-90px;
+    margin-left:30px;
+    list-style-type: none;
 }
 .stripsBody{
     margin-top:-2px;
